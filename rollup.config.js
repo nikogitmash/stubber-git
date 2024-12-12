@@ -9,7 +9,7 @@ export default {
   output: {
     file: 'dist/webflow-bundle.js', // Final bundle
     format: 'iife', // Suitable for direct use in Webflow
-    name: 'WebflowCustomCode', // Prevents global variable conflicts
+    name: 'StubLib', // Prevents global variable conflicts
     sourcemap: true, // Enables debugging with source maps
   },
   plugins: [
