@@ -26,7 +26,5 @@ export default {
     }),
     terser(), // Minifies JavaScript for production
   ],
-  treeshake: {
-    moduleSideEffects: false, // Ensures tree-shaking removes unused code
-  },
+  treeshake: false
 };
